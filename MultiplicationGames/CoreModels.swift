@@ -36,6 +36,18 @@ struct MultiplicationQuestion {
             return factorAmissing ? factorA : factorB
         }
     }
+    
+    var displayFactorA: String {
+        return String(factorA)
+    }
+    
+    var displayFactorB: String {
+        return String(factorB)
+    }
+    
+    var displayProduct: String {
+        return String(product)
+    }
 }
 
 extension MultiplicationQuestion {
@@ -51,6 +63,7 @@ extension MultiplicationQuestion {
             }
         }
     }
+   
 }
 
 
